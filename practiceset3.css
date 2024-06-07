@@ -1,0 +1,12 @@
+div{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+    border: 50px;
+    margin: 10px 20px 30px 40px;
+    border-width: 2px;
+    border-style: dashed;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS BOXMODEL</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px; 
+        }
+        .box{
+            background-color: red;
+        }
+        .box1{
+            color: aqua;
+            padding: 10px;
+            margin: 5px;
+            border: 2px solid blue;
+            height: 200px;
+            box-sizing:border-box ;
+        }
+        .box2{
+            color: yellow;
+            background-color: black;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="box box1">Im a box</div>
+    <!-- use .box for above line -->
+    <div class="box box2">Im another box</div>
+  </body>
+</html>
